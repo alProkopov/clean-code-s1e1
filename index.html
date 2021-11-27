@@ -8,7 +8,7 @@
       media="screen"
       charset="utf-8">
 </head>
-<body>
+<body class="page">
   <div class="header">
     <img src="./eisenhower-matrix.jpg">
     <a class="more-inf"
@@ -20,38 +20,38 @@
       <label for="new-task">Add Item</label>
       <div class="task-row-wrapper">
         <input id="new-task"class="task" type="text">
-        <button>Add</button>
+        <button class="button">Add</button>
       </div>
     </p>
     <h3>Todo</h3>
     <ul id="incompleted-tasks">
-      <li>
+      <li class="list-item">
         <input type="checkbox">
         <label class="task">Pay Bills</label>
         <input type="text" class="task">
-        <button class="edit">Edit</button>
-        <button class="delete">
+        <button class="button edit">Edit</button>
+        <button class="button delete">
           <img src="./remove.svg">
         </button>
       </li>
-      <li class="edit-mode">
+      <li  class="list-item edit-mode">
         <input type="checkbox">
         <label class="task">Go Shopping</label>
         <input type="text" value="Go Shopping" class="task">
-        <button class="edit">Save</button>
-        <button class="delete">
+        <button class="button edit">Save</button>
+        <button class="button delete">
           <img src="./remove.svg">
         </button>
       </li>
     </ul>
     <h3>Completed</h3>
     <ul id="completed-tasks">
-      <li>
+      <li class="list-item">
         <input type="checkbox" checked>
         <label class="task">See the Doctor</label>
         <input type="text" class="task">
-        <button class="edit">Edit</button>
-        <button class="delete">
+        <button class="button edit">Edit</button>
+        <button class="button delete">
           <img src="./remove.svg">
         </button>
       </li>
