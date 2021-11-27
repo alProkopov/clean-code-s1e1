@@ -18,9 +18,11 @@
 }
 
 @media (max-width: 768px) {
+
   .header {
     text-align: center;
   }
+
 }
 .container {
   display: block;
@@ -42,7 +44,7 @@
   padding: 0px;
 }
 
-.list-item
+.list-item,
 h3 {
   list-style: none;
 }
